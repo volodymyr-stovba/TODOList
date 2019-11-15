@@ -1,0 +1,19 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[TodoItem]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[TodoItem] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_dbo.TodoItem_dbo.AspNetUsers_UserId] (Foreign Key)
+     Create
+       [dbo].[FK_dbo.TodoItem_dbo.AspNetUsers_UserId] (Foreign Key)
